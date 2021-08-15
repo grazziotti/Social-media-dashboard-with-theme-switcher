@@ -1,3 +1,3 @@
-const checkbox = document.querySelector('.js-checkbox')
+const switchBtn = document.querySelector('.js-switch')
 
-checkbox.addEventListener('change', () => document.body.classList.toggle('dark--mode') )
+switchBtn.addEventListener('click', () => document.body.classList.toggle('dark--mode'))
