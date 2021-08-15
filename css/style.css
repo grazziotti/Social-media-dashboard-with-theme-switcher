@@ -129,7 +129,6 @@ body {
     cursor: pointer;
 }
 
-
 .header__switch:hover,
 .dark--mode .header__switch {
     background: linear-gradient(35deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
