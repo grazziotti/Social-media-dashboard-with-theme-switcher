@@ -316,6 +316,28 @@ body {
 }
 
 
+[data-anime] {
+    opacity: 0;
+    transition: .5s;
+}
+
+[data-anime="left"] {
+    transform: translateX(-2rem);
+}
+
+[data-anime="right"] {
+    transform: translateX(2rem);
+}
+
+[data-anime="bottom"] {
+    transform: translateY(2rem);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate(0);
+}
+
 
 @media (max-width: 1350px) {
     .container {
